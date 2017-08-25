@@ -1,0 +1,182 @@
+\documentclass[lmodern,utf8,11pt]{my_cv}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0.1in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\v{s}\v{S}\DJ\dj\v{c}\v{C}\'c\'C\v{z}\v{Z}
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  {\Large Krešimir Vukić} & \href{mailto:vukic.kresimir@gmail.com}{vukic.kresimir@gmail.com}\\
+  {Kozarčeva 46A, 10000 Zagreb, Croatia} & +385 99 385 8585 \\
+\end{tabular*}
+
+%-----------OBJECTIVE-----------------
+  \begin{center}
+  \textsc{Software Engineering Intern}
+\end{center}
+
+%-----------EDUCATION-----------------
+\section{Education}
+
+\begin{tabular}{r | p{14cm}}
+  \textsc{July 2017 -- Present}  & \textbf{Master's in \textsc{Computer Science} (MSc)} \\
+                                  & \footnotesize{Faculty of Electrical Engineering and Computing, University of Zagreb} \\
+                                  \\
+  \textsc{Fall 2014 -- July 2017}  & \textbf{Bachelor's degree in \textsc{Computer Science} (BSc)} \\
+                                   & \footnotesize{Faculty of Electrical Engineering and Computing, University of Zagreb} \\
+  \multicolumn{2}{c}{} \\
+\end{tabular}
+
+\begin{comment}
+
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University of Zagreb}{Zagreb, Croatia}
+    {Master of Science in Computer Science (MSc)}{July 2017 -- Present}
+  \resumeSubheading
+    {University of Zagreb}{Zagreb, Croatia}
+    {Bachelor of Computer Science (BSc)}{Fall 2014 -- July 2017}
+\resumeSubHeadingListEnd
+
+\end{comment}
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+
+\begin{comment}
+
+\begin{tabular}{r | p{14cm}}
+  \textsc{Feb 2016 - Present }  &  Software Engineering Intern at \textsc{CROZ}, Zagreb \\
+                                &  \footnotesize{ Improved responsiveness by optimizing DB queries and implementing pagination. } \\
+                                &  \footnotesize{ Improved frontend code architecture by moving state from components to store and enforcing unidirectional data flow.  } \\
+                                &  \footnotesize{ Migrated frontend codebase from ES5 to ES6 and from Flux to Redux. } \\
+  \multicolumn{2}{c}{} \\
+\end{tabular}
+
+\end{comment}
+
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {CROZ}{}
+      {Software Engineer Intern}{Feb 2016 - Present}
+      \resumeItemListStart
+        \resumeItem{Project management application (Java, React)}
+          {
+	\newline Improved responsiveness by optimizing DB queries and implementing pagination. 
+	\newline Improved frontend code architecture by moving state from components to store and enforcing unidirectional data flow. 
+	\newline Migrated frontend codebase from ES5 to ES6 and from Flux to Redux.
+	}
+        \resumeItem{Salon appointment reservation (Java, Angular2)}
+          {
+	\newline Integrated 3rd party calendar into application through which reservations are created.
+	\newline Implemented reservation cancelation and editing through back office.
+	\newline Written logic for notifying users of important changes.
+	}
+        \resumeItem{Order Execution for T-Mobile Croatia (Java, Angular 2)}
+          {
+	\newline Worked on specifying business processes with BPMN.
+	\newline Built docker images and set up gradle build scripts for mock server, Redis DB and REST API web interface. 
+	\newline Created dashboard for data search and overview.
+	\newline Mapped java models to oracle DB using stored procedures.
+	\newline Written mocks, unit tests and documentation for DAO layer.
+	}
+
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{QuantSoftware Toolkit}
+      {Open source python library for financial data analysis and machine learning for finance.}
+    \resumeSubItem{Github Visualization}
+      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+    \resumeSubItem{Recommendation System}
+      {Music and Movie recommender systems using collaborative filtering on public datasets.}
+    \resumeSubItem{Mac Setup}
+      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+\begin{tabular}{r  p{14cm}}
+  \textsc{Croatian: }  &  Mothertoungue \\
+  \textsc{English: }  &  Fluent \\
+  \textsc{German: }  &  Basic Knowledge \\
+  \multicolumn{2}{c}{} \\
+\end{tabular}
+
+%--------LANGUAGES------------
+\section{Languages}
+\begin{tabular}{r  p{14cm}}
+  \textsc{Proficient in: }  &  Java \\
+  \textsc{Familiar with: }  &  C++, Haskell, Python, JavaScript, Scala \\
+  \textsc{Experience with: }  &  GIT, Linux, NoSQL \\
+  \multicolumn{2}{c}{} \\
+\end{tabular}
+
+%--------LINKS------------
+\section{Links} 
+\begin{tabular}{r  p{14cm}}
+  \textsc{GitHub: }   \href{https://github.com/v-silverfin}{github/v-silverfin} &
+  \textsc{LinkedIn: } \href{linkedin.com/in/krešimir-vukić-b6956040}{Krešimir Vukić} \\
+  \multicolumn{2}{c}{} \\
+\end{tabular}
+
+
+%-------------------------------------------
+\end{document}
