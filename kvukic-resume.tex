@@ -3,187 +3,188 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass[a4paper,10pt]{article} % Default font size and paper size
-  
-  \usepackage{cmap}
-  \usepackage[cm]{fullpage}
-  \usepackage{fontspec} % For loading fonts
-  \defaultfontfeatures{Mapping=tex-text}
-  %\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
-  %\setmainfont[Path=/Users/dgleich/Downloads]{font.sit}
-  
-  \usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
-  
-  \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
-  \usepackage[bottom=0em,top=2em]{geometry} % Required for additional modifications of header, footer.
-  
-  
-  %\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
-  % To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
-  
-  \usepackage{hyperref} % Required for adding links	and customizing them
-  \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
-  \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
-  
-  \usepackage{titlesec} % Used to customize the \section command
-  \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
-  \titlespacing{\section}{0pt}{0pt}{0pt} % Spacing around sections
-  
-  
-  \begin{document}
-  
-  \pagestyle{empty} % Removes page numbering
-  
-  
-  %----------------------------------------------------------------------------------------
-  %	NAME AND CONTACT INFORMATION
-  %----------------------------------------------------------------------------------------
-  
-  \begin{minipage}{.5\textwidth}
-  \LARGE{Krešimir Vukić}\\
-  \normalsize{Kozarčeva 46A, 10000 Zagreb, Croatia}
-  \end{minipage}%
-  \begin{minipage}{.5\textwidth}
-  \raggedleft
-  \href{mailto:vukic.kresimir@gmail.com}{vukic.kresimir@gmail.com} \\
-  +385 99 385 8585 \\
-  \end{minipage}
-  
-  \vspace{5mm}
-  
-  
-  %----------------------------------------------------------------------------------------
-  %	WORK EXPERIENCE 
-  %----------------------------------------------------------------------------------------
-  
-  \section{Work Experience}
-  
-  \begin{tabular}{r|p{11cm}}
-  
-  \textsc{Feb} 2016-\textsc{Present} & \textbf{Software Engineering Intern at \textsc{CROZ}, Zagreb}\\
-      \\
-      &  Project management application (Java, React) \\
-      &  \footnotesize{ \textbullet
-        Improved responsiveness by optimizing DB queries and implementing pagination.
-        } \\
-      &  \footnotesize{ \textbullet
-        Improved frontend code architecture by enforcing unidirectional data flow.
-        } \\
-      &  \footnotesize{ \textbullet
-        Migrated frontend codebase from ES5 to ES6 and from Flux to Redux.
-        } \\
-      
-      \\
-      &  Salon appointment reservation (Java, Angular2) \\
-      &  \footnotesize{ \textbullet
-        Integrated 3rd party calendar through which reservations are created.
-        } \\
-      &  \footnotesize{ \textbullet
-        Implemented reservation cancelation and editing through back office.
-        } \\
-      &  \footnotesize{ \textbullet
-        Written logic for notifying users of important changes.
-        } \\
-      
-      \\
-      &  Order Execution for T-Mobile Croatia (Java, Angular 2) \\
-      &  \footnotesize{ \textbullet
-        Worked on specifying business processes with BPMN.
-        } \\
-      &  \footnotesize{ \textbullet
-        Built docker images and set up gradle build scripts for mock server, Redis DB and REST API web interface. 
-        } \\
-      &  \footnotesize{ \textbullet
-        Created dashboard for data search and overview.
-        } \\
-      &  \footnotesize{ \textbullet
-        Mapped java models to oracle DB using stored procedures.
-        } \\
-      &  \footnotesize{ \textbullet
-        Written mocks, unit tests and documentation for DAO layer.
-        } \\
-  \end{tabular}
-  
-  \vspace{5mm}
-  
-  %----------------------------------------------------------------------------------------
-  %	EDUCATION
-  %----------------------------------------------------------------------------------------
-  
-  \section{Education}
-  
-  \begin{tabular}{rl}	
-      \textsc{July 2017 -- Present}  & \textbf{Master's in \textsc{Computer Science} (MSc)} \\
-                                     & \footnotesize{Faculty of Electrical Engineering and Computing, University of Zagreb} \\
-                                     \\
-      \textsc{Fall 2014 -- July 2017}  & \textbf{Bachelor of \textsc{Computer Science} (BSc)} \\
-                                       & \footnotesize{Faculty of Electrical Engineering and Computing, University of Zagreb} \\
-  \end{tabular}
-  
-  \vspace{5mm}
-  
-  %----------------------------------------------------------------------------------------
-  %	PERSONAL PROJECTS
-  %----------------------------------------------------------------------------------------
-  
-  \section{Personal Projects}
-  
-  \begin{tabular}{l|p{11cm}}
-  \textsc{Therapy management} &
-  \footnotesize{Application for managing therapy history, user data and appointments. (Java)}\\
-  \end{tabular}
-  
-  \begin{tabular}{l|p{11cm}}
-  \textsc{InstaPop} &
-  \footnotesize{Displaying popular pictures from Instagram with endless scroll. (Java, Android)}\\
-  \end{tabular}
-  
-  \vspace{5mm}
-  
-  %----------------------------------------------------------------------------------------
-  %	TECHNICAL SKILLS 
-  %----------------------------------------------------------------------------------------
-  
-  \section{Technical Skills}
-  
-  \begin{tabular}{rl}
-      Proficient in:   &  Java \\
-      Familiar with:   &  C++, Haskell, Python, JavaScript, Scala \\
-      Experience with: &  GIT, Linux, NoSQL \\
-  \end{tabular}
-  
-  \vspace{5mm}
-  
-  %----------------------------------------------------------------------------------------
-  %	LANGUAGES 
-  %----------------------------------------------------------------------------------------
-  \section{Languages}
-  
-  \begin{tabular}{rl}
-    \textsc{Croatian: } &  Native \\
-    \textsc{English: }  &  Fluent \\
-    \textsc{German: }   &  Basic Knowledge \\
-  \end{tabular}
-  
-  \vspace{5mm}
-  
-  %----------------------------------------------------------------------------------------
-  %	LINKS 
-  %----------------------------------------------------------------------------------------
-  \section{Links}
-  
-  \begin{tabular}{rl}
-    \textsc{GitHub: }   \href{https://github.com/v-silverfin}{github/v-silverfin} &
-    \textsc{LinkedIn: } \href{linkedin.com/in/krešimir-vukić-b6956040}{Krešimir Vukić} \\
-  \end{tabular}
-  
-  
-  %----------------------------------------------------------------------------------------
-  %	INTERESTS AND ACTIVITIES
-  %----------------------------------------------------------------------------------------
-  
-  %
-  %\section{Interests and Activities}
-  %Technology, Open-Source, Finance, Football, Guitar, Travelling, Sci-Fi, Debate, Politics\\
-  
-  \end{document}
-  
+
+\usepackage{cmap}
+\usepackage[cm]{fullpage}
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+%\setmainfont[Path=/Users/dgleich/Downloads]{font.sit}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+\usepackage[bottom=0em,top=2em]{geometry} % Required for additional modifications of header, footer.
+
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{0pt}{0pt} % Spacing around sections
+
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{.5\textwidth}
+\LARGE{Krešimir Vukić}\\
+\normalsize{Kozarčeva 46A, 10000 Zagreb, Croatia}
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+\raggedleft
+\href{mailto:vukic.kresimir@gmail.com}{vukic.kresimir@gmail.com} \\
++385 99 385 8585 \\
+\end{minipage}
+
+\vspace{5mm}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\begin{tabular}{r|p{11cm}}
+
+\textsc{Feb} 2016-\textsc{Present} & \textbf{Software Engineering Intern at \textsc{CROZ}, Zagreb}\\
+    \\
+
+\footnotesize{6 months} &  Project management application (Java, React) \\
+    &  \footnotesize{ \textbullet
+      Improved responsiveness by optimizing DB queries and implementing pagination.
+      } \\
+    &  \footnotesize{ \textbullet
+      Improved frontend code architecture by enforcing unidirectional data flow.
+      } \\
+    &  \footnotesize{ \textbullet
+      Migrated frontend codebase from ES5 to ES6 and from Flux to Redux.
+      } \\
+    \\
+
+\footnotesize{2 months} &  Salon appointment reservation (Java, Angular2) \\
+    &  \footnotesize{ \textbullet
+      Integrated 3rd party calendar through which reservations are created.
+      } \\
+    &  \footnotesize{ \textbullet
+      Implemented reservation cancelation and editing through back office.
+      } \\
+    &  \footnotesize{ \textbullet
+      Written logic for notifying users of important changes.
+      } \\
+    \\
+
+\footnotesize{8 months} &  Order Execution for T-Mobile Croatia (Java, Angular 2) \\
+    &  \footnotesize{ \textbullet
+      Worked on specifying business processes with BPMN.
+      } \\
+    &  \footnotesize{ \textbullet
+      Built docker images and set up gradle build scripts for mock server, Redis DB and REST API web interface. 
+      } \\
+    &  \footnotesize{ \textbullet
+      Created dashboard for data search and overview.
+      } \\
+    &  \footnotesize{ \textbullet
+      Mapped java models to oracle DB using stored procedures.
+      } \\
+    &  \footnotesize{ \textbullet
+      Written mocks, unit tests and documentation for DAO layer.
+      } \\
+
+\end{tabular}
+
+\vspace{5mm}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+    \textsc{July 2017 -- Present}  & \textbf{Master's in \textsc{Computer Science} (MSc)} \\
+                                    & \footnotesize{Faculty of Electrical Engineering and Computing, University of Zagreb} \\
+                                    \\
+    \textsc{Fall 2014 -- July 2017}  & \textbf{Bachelor of \textsc{Computer Science} (BSc)} \\
+                                      & \footnotesize{Faculty of Electrical Engineering and Computing, University of Zagreb} \\
+\end{tabular}
+
+\vspace{5mm}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Personal Projects}
+
+\begin{tabular}{l|p{11cm}}
+\textsc{Therapy management} &
+\footnotesize{Application for managing therapy history, user data and appointments. (Java)}\\
+\end{tabular}
+
+\begin{tabular}{l|p{11cm}}
+\textsc{InstaPop} &
+\footnotesize{Displaying popular pictures from Instagram with endless scroll. (Java, Android)}\\
+\end{tabular}
+
+\vspace{5mm}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Technical Skills}
+
+\begin{tabular}{rl}
+    Proficient in:   &  Java \\
+    Familiar with:   &  C++, Haskell, Python, JavaScript, Scala \\
+    Experience with: &  GIT, Linux, NoSQL \\
+\end{tabular}
+
+\vspace{5mm}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES 
+%----------------------------------------------------------------------------------------
+\section{Languages}
+
+\begin{tabular}{rl}
+  \textsc{Croatian: } &  Native \\
+  \textsc{English: }  &  Fluent \\
+  \textsc{German: }   &  Basic Knowledge \\
+\end{tabular}
+
+\vspace{5mm}
+
+%----------------------------------------------------------------------------------------
+%	LINKS 
+%----------------------------------------------------------------------------------------
+\section{Links}
+
+\begin{tabular}{rl}
+  \textsc{GitHub: }   \href{https://github.com/v-silverfin}{github/v-silverfin} &
+  \textsc{LinkedIn: } \href{https://www.linkedin.com/in/kre%C5%A1imir-vuki%C4%87-b6956040/}{linkedin.com/in/krešimir-vukić-b6956040} \\
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+%
+%\section{Interests and Activities}
+%Technology, Open-Source, Finance, Football, Guitar, Travelling, Sci-Fi, Debate, Politics\\
+
+\end{document}
