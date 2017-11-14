@@ -28,15 +28,13 @@
 
     -- Technologies --
     Main langage for backend is Java in combination with Spring Framework and Gradle build system. On frontent it's TypeScript with Angular 2.
-    Other important technologies used are Redis and Oracle DB 12c for storage, Docker for platform agnostic development, Wiremock for simulating unfinished subsystems
-    and Camunda for designing complex business processes.
+    Other important technologies used are Redis and Oracle DB 12c for storage, Docker for platform agnostic development, Wiremock for simulating unfinished subsystems and Camunda for designing complex business processes.
 
     -- My roles --
     I'm the sole developer working on the Dashboard for displaying current system state, errors and visualizing processes. 
     Some of the things I've done are setting up routing, translation, authentication with KeyCloak, wrote rest services, used Redux for state handling, created tree graph with D3.js, etc.
 
-    Since every programmer in the team has to be familiar with parts of the system other members write, as part of the learning I also 
-    wrote unit tests for Spring Data JPA repository, mapped controllers to Oracle DB procedures, built docker images for mock server and Redis DB...
+    Since every programmer in the team has to be familiar with parts of the system other members write, as part of the learning I also wrote unit tests for Spring Data JPA repository, mapped controllers to Oracle DB procedures, built docker images for mock server and Redis DB...
 
 8. Are you actively interviewing, and do you have any deadlines (pending offers, etc.)? 
     I am actively interviewing in Croatia, looking for job that would be more suitable for my university specialization (machine learning). 

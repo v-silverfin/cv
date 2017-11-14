@@ -1,0 +1,176 @@
+
+So, tell me about yourself. ..
+ - College: I'm a 4th year student studying computer science at university with accent on machine learning.
+ - Work experience: I've also been working for last 2 years as a software engineer as both backend and frontend
+        developer. It all started as a wish to gain more practical knowledge than possible to attain on university
+        and ended up not only being that but also a social improvement. I learned to work as a part of the team,
+        to seek knowledge from senior developers, conferences and tech talks.
+ - Outside of work: I believe that physical activites raise mental abilities so I mostly spend free time working out.
+        In the night hours, I often gain sudden inspiration to do fun projects which helps me in attaining knowledge in new
+        technologies more rapidly.
+ - Wrap up: Internship at such a large international company is of utmost importance to my goal of mastering programming skills.
+        It would greatly accelerate my development and allow me to build solid foundation for continuing specialization at uni.
+
+
+
+##### Challenges
+
+What was the hardest bug you've faced
+ - On a Dashboard Button actions would duplicate components and somehow retain them in memory even after redirects. 
+   Complicated part was that I played with Typescript, extending classes, injecting dependencies, 
+   creating event observers and chaining promises...
+   Debugging was almost impossible, noone in the company had any experience with it so I ended up alone
+   in task of finding the source of the problem.
+   -- how i solved it
+   The problem ended up being that I forgot to cancel subscribtions at the end of component lifecycle
+   which interfered with angular's garbage collection and all of the comonents ended up staying alive
+   until application whas restarted.
+  
+-
+-
+##### Mistakes/Failures
+
+Have you ever made a mistake? How did you handle it? 
+ - There was a period when our continuous deployment was broken because of the large Jenkins update.
+ There was only me and another student in the team and had to deploy fixes to test server.
+ I did a manual deploy for a few days and used Ctrl+R to find commands in bash history.
+ there was a step that deleted contents in current directory... 
+ Well, I fast-clicked it while being in the root and brought down the test server.
+ I immediately contacted my line manager and explained the situation. 
+ my supervisor was understanding, and although I felt bad that I had made such and error, I learned to pay close attention not to do things so hurriedly in the future
+ Afterwards, I requested a new instance from the 'sistemaši', reinstalled all of the dependencies and
+ rebuilt all of the images. Everything was up and running in a few hours?? and of course, 
+ I made a priority setting up the automatic deployment.
+
+
+-
+-
+##### Enjoyed
+-
+-
+-
+##### Leadership
+-
+-
+-
+##### Conflicts
+
+  - On a large project for rebuilding a central telco system, a project owner from that client was assigned as a technical lead. 
+    From the start he insisted on using ancient technologies and terrible architectural patterns that were used in the old system with which he was well familiarized.
+    I was in charge of the dashboard and had a direct discussions with him to define tasks for the following sprint. 
+    Before each meeting, I thought of some great examples why would I do things my way and succeded in persuading him to allow almost all of the suggestions.
+
+
+What do you do when a team member refuses to complete his or her portion of the work?
+ - When there are team conflicts or issues, I always try my best to step up as team leader if needed.
+   I think my communication skills make me an effective leader and moderator. 
+   For example, at university I was once working on a team project, and three of the team members didn't have any practical coding experience so
+   they simply refused to do what was asked from them...
+   I arranged a meeting at a bar to talk about their wishes and rearranged the assignments so that they have more will to do the work.
+   At the end, we got an A.
+
+-
+##### What You'd Do Differently
+- I would spend more time working with junior students on their internship. At the end it turned out that the task was out of their league, but I didn't notice it timely.
+  After all, this profession is filled with learning and unknown tasks. It can be hard to assess how other people stand in all of it.
+- change tech because...
+- Ask for help on fixing continuous deployment. When I just started working, my productivity was still low and it was overwhelming to do all tasks on time.
+  Among them was one to fix Jenkins build. I spent a few days on it and found out that it was too hard for me to do.
+  Few weeks later, I asked for help from a senior developer and was enlightened how much time did I spend uselessly deploying manually...
+-
+
+####    Think about your 2-5 years career aspirations: You will be asked to talk about your interest and your strengths as an engineer.
+
+
+1. "I noticed that you use technology X. How do you handle problem Y?"
+
+Passion Q - Tm very interested in scalability, and I'd love to learn more about it. What opportunities are there at this
+company to learn about this?"
+
+
+
+##### Weaknesses
+  - Sometimes, I don't have a very good attention to detail. While that's good because it lets me
+    execute quickly, it also means that I sometimes make careless mistakes. Because of that, I make
+    sure to always have someone else double check my work."
+
+Tell me about a time you had to persuade a group of people to make a big change.
+    - Sure, let me tell you about the time when I convinced my team to start using Redux...
+
+
+
+Tell me about how you worked effectively under pressure.
+ - 
+
+5. Give an example of a goal you reached and tell me how you achieved it. 
+ - At my first job, I wanted to become full fledged member and not just another student.
+   I put extra effort into attending meetings, socializing, and making connections.
+   It helped me to gain more serious assigments and show my skills to do a proper job.
+   Not long afterwards, I was considered as good as any full time employee.
+
+
+7. Give an example of how you worked on a team.
+ - 
+
+  
+
+Improving upon a design: Think about and review the complex systems you’ve already designed. What would you change about your approach if you did it all over again? What worked well?
+Designing from the ground up: Think about how you’d design a system that Facebook (Or Twitter, Google, Uber, Dropbox, etc) already has. It’s a good thought exercise to think through the complicated, high-scale systems that you already use every day. How would design it from the ground up?
+
+
+
+
+
+Motivation and collaboration: Different interviewers will ask different questions. When I do a behavioral interview, I typically seek two signals in particular:
+One, what is the candidate's motivation? Why do they want to work at Facebook? Why are they working as a software engineer?
+Two, how do they collaborate with their peers? How do they resolve conflicts?
+Have concrete examples or anecdotes: Support each question with examples. Some typical behavioral interview questions are:
+- What were some of the best things you've built?   
+
+- What are you proud of?  
+    Being on par with people who have been in the industry much longer than me.
+- What could you have done better?  
+    Refactoring Tashi, didn't have enough XP
+- What were some excellent collaborations you've had?   
+
+- Tell me about a time when you advocated for and pushed your own ideas forward despite opposition?
+
+- How do you deal with conflict?  
+      I act differently depening on 2 types of conflicts. Between colleagues and between us and the clients.
+      - First one is between colleagues and most of them happened at university. 
+      Reason being that people natureally want to show off what they can do and to have as great as possible part in anything really.
+      Knowing that, my first attempt is always to establish an unformal meeting, usually in a pub or some place everyone could relax. 
+      Then we had a discussion around methods and technologies people were interested in and who wanted to do what.
+      - Second type happens at work between clients and us (the people working there). 
+      That's a bit harder to resolve and has always required extensive explanations on why I think is my idea better than theirs.
+      Being the one familliar with technical side of things helps in persuading them, althogh I have to admit that quite often they end up having their way.
+
+- How do you like to give and receive feedback? 
+    When giving feedback, I always check if person is willing to take it in the first place. If not, it could only cause negative relations and probably wouldn't help at all.
+    If they do want to recieve it, I have examples prepared in advance to show them not only what they did wrong but also how can they improve on it.
+
+- What kinds of technologies are you most excited about?  
+    Inovative, challenging,
+- Why Facebook?   
+    Recent turmoils around social sites controlling the world, I decided be part of the team that makes an impact on the world... 
+    I realize that chances of me personally leading a chance are slim, Facebook would provide me much greater platform for success.
+
+
+
+
+Tips for the Interview:
+
+Familiarize yourself with our 5 core values (move fast, be bold, focus on impact, be open, and build social value). This is how we work together to make the world more open and connected. 
+We look for people who believe in these values and practice them daily.
+Be yourself! Be open and honest about your successes and failures.
+Be humble and focus on team work, leadership and mentorship qualities.
+
+Is training provided for the methodology being used?
+What parts of the software development life cycle do developers do?
+What is the breakdown of a developer's day, e.g. how much time for support or troubleshooting, how much time for coding, analysing requirements, etc.?
+Does the team go out together every now and then?
+How will I be measured?
+When can I expect to hear from you?
+
+
+On your very best day at work – the day you come home and think you have the best job in the world – what did you do that day?
