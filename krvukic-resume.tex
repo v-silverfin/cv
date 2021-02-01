@@ -1,0 +1,177 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{cmap}
+\usepackage[cm]{fullpage}
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+%\setmainfont[Path=/Users/dgleich/Downloads]{font.sit}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+\usepackage[bottom=0em,top=2em,margin=0.45in]{geometry} % Required for additional modifications of header, footer.
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment:\addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{0pt}{0pt} % Spacing around sections
+
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+\begin{minipage}{.5\textwidth}
+\LARGE{Krešimir Vukić}\\
+\normalsize{Vancouver, British Columbia, Canada} \\
++1-236-867-8895
+\end{minipage}%
+\begin{minipage}{.5\textwidth}
+\raggedleft
+\href{https://github.com/v-silverfin}{github/v-silverfin}\\
+\href{https://www.linkedin.com/in/krvukic/}{linkedin.com/in/krvukic} \\
+\href{mailto:vukic.kresimir@gmail.com}{vukic.kresimir@gmail.com} \\
+\end{minipage}
+\vspace{3mm}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE 
+%----------------------------------------------------------------------------------------
+\begin{center}
+\textsc{\large{Software Engineer}}
+\end{center}
+\vspace{2mm}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS 
+%----------------------------------------------------------------------------------------
+\section{Technical Skills}
+
+\begin{tabular}{rl}
+    Programming:   &  C\#, TypeScript, C++, Java, Python, GoLang \\
+    Tools: &  Azure, Docker, Kubernetes, GIT, Linux, SQL \\
+\end{tabular}
+\vspace{3mm}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\begin{tabular}{rl}
+    \textsc{July} 2017-\textsc{July} 2019 & \textbf{Master of Science in Computing (MSc)}, \footnotesize{FER, University of Zagreb} \\
+                                    & \footnotesize{\textsc{MSc thesis} - Adversarial attacks for image classification models} \\
+    \textsc{Oct} 2014-\textsc{July} 2017 & \textbf{Bachelor of Science in Computing (BSc)}, \footnotesize{FER, University of Zagreb}  \\
+                                    & \footnotesize{\textsc{BSc thesis} - Deep neural networks for emotion recognition} \\
+\end{tabular}
+\vspace{3mm}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+\section{Work Experience}
+
+\begin{tabular}{r|p{15cm}}
+  
+\textsc{Oct} 2019-\textsc{Present} & \textbf{Software Engineer at \textsc{Microsoft}, Vancouver}\\
+    \\
+    & Azure/Compliance And Security \\
+    &  \footnotesize{ \textbullet
+    Developed systems for distributing security and compliance policies through Azure DevOps
+    } \\
+    &  \footnotesize{ \textbullet
+    Implemented branch policies for ensuring that all changes are reviewed before reaching production environments
+    } \\
+    &  \footnotesize{ \textbullet
+    Implemented build policy for functional test verification in Azure DevOps
+    } \\
+    &  \footnotesize{ \textbullet
+    Enforced Azure Devops repository ownership mapping on 57000 repositories for aiding security teams
+    } \\
+    &  \footnotesize{ \textbullet
+    Refactored policy tooling UIs from 2 year old React to a newly recommended architecture with React Hooks which improved maintainability and reduced chances of creating bugs
+    } \\
+    \\
+
+\textsc{Nov} 2017-\textsc{Sep} 2019 & \textbf{Software Engineering Intern at \textsc{Axilis}, Zagreb}\\
+    \\
+    & Betting platform UI for internal use (TS, React, GoLang) \\
+    &  \footnotesize{ \textbullet
+    Developed interface for traders where they can map betting data sources to live and future match events
+    } \\
+    &  \footnotesize{ \textbullet
+    Created an audit system for aggregating logs and monitoring anomalies
+    } \\
+    \\
+    & Betting platform (GoLang) \\
+    &  \footnotesize{ \textbullet
+    Implemented system for lotto reward calculations and lotto ticket validation
+    } \\
+    \\
+    & Contact matching application (JS, Node, React-Native) \\
+    &  \footnotesize{ \textbullet
+    Full-stack dev: deployment, DB migrations, SendGrid integration, UI implementation
+    } \\
+    &  \footnotesize{ \textbullet
+    Reimplemented sign-in flow so that it doesn't require storing unconfirmed tokens
+    } \\
+    &  \footnotesize{ \textbullet
+    Designed and created context-aware, asynchronous tutorial layer for the iOS 
+    } \\
+    \\
+
+\textsc{Feb} 2016-\textsc{Nov} 2017 & \textbf{Software Engineering Intern at \textsc{CROZ}, Zagreb}\\
+    \\
+    & Order Execution for T-Mobile Croatia (Java, Angular 2) \\
+    &  \footnotesize{ \textbullet
+    Worked on specifying business processes with BPMN
+    } \\
+    &  \footnotesize{ \textbullet
+    Built docker images and set up Gradle build scripts for mock server and Redis DB
+    } \\
+    &  \footnotesize{ \textbullet
+    Created a dashboard for data overview in form of graphs (with D3.js)
+    } \\
+    \\
+    & Blockchain on IBM Hyperledger Fabric (GoLang, JavaScript) \\
+    &  \footnotesize{ \textbullet
+    Team leader for students at a summer internship
+    } \\
+    &  \footnotesize{ \textbullet
+    Created a demo business network for real estate transactions on blockchain
+    } \\
+    \\
+    & Project management application (Java, React) \\
+    &  \footnotesize{ \textbullet
+    Improved responsiveness by optimizing DB queries and implementing pagination
+    } \\
+    &  \footnotesize{ \textbullet
+    Improved front-end code architecture by enforcing unidirectional data flow with Redux
+    } \\
+\end{tabular}
+\vspace{3mm}
+
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES 
+%----------------------------------------------------------------------------------------
+\section{Languages}
+
+\begin{tabular}{c | c | c}
+  \textsc{Native:} Croatian & \textsc{Fluent:} English & \textsc{Basic Knowledge:} German, Spanish
+\end{tabular}
+
+\end{document}
