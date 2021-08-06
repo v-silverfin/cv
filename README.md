@@ -1,7 +1,12 @@
 # CV
 
-This is a repo for managing my resume.
+A repository for managing Kresimir Vukic's resume.
 
-Build example:
+Usage:
 
-    latexmk -synctex=1 -interaction=nonstopmode -file-line-error -lualatex c:/dev/GitHub/v-silverfin/cv/kvukic-resume
+ - Download MiKTeX from https://miktex.org/download
+ - Download Perl from https://www.activestate.com/products/perl/
+ - Build with:
+ `
+ latexmk -synctex=1 -interaction=nonstopmode -file-line-error -lualatex {PATH_TO_REPO}/cv/kvukic-resume
+ `
